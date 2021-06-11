@@ -1,9 +1,13 @@
 import React from "react";
+import Footer from "../components/Footer";
+import Menu from "../components/Menu";
 
 const Contact = () => {
 	return (
 		<div>
-			<h1>Erreur 404</h1>
+			<Menu />
+			contact
+			<Footer />
 		</div>
 	);
 };

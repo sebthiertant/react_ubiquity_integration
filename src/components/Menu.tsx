@@ -37,7 +37,10 @@ const Menu = () => {
 						{menuItems.map((item) => {
 							return (
 								<li className="main-nav__item">
-									<a href={item.toLowerCase()} className="main-nav__link">
+									<a
+										href={item === "Home" ? "/" : item.toLowerCase()}
+										className="main-nav__link"
+									>
 										{item}
 									</a>
 								</li>
